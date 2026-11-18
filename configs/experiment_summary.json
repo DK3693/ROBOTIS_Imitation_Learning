@@ -1,0 +1,24 @@
+{
+  "steps": 6000,
+  "batch_size": 8,
+  "seed": 42,
+  "base_learning_rate": 0.0001,
+  "precision": "bfloat16",
+  "augmentation": false,
+  "train_episodes": 40,
+  "validation_episodes": 10,
+  "train_frames": 18267,
+  "validation_frames": 3745,
+  "source": "saved training configurations",
+  "format": "documentation summary; not an executable training configuration",
+  "runs": [
+    {
+      "name": "baseline",
+      "freeze_vision_encoder": false
+    },
+    {
+      "name": "vision_freeze",
+      "freeze_vision_encoder": true
+    }
+  ]
+}

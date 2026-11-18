@@ -1,0 +1,35 @@
+{
+  "format": "documentation I/O contract; not a Cyclo CLI config",
+  "robot_type": "ffw_bg2_rev4",
+  "state_names": [
+    "arm_r_joint1",
+    "arm_r_joint2",
+    "arm_r_joint3",
+    "arm_r_joint4",
+    "arm_r_joint5",
+    "arm_r_joint6",
+    "arm_r_joint7",
+    "gripper_r_joint1"
+  ],
+  "action_names": [
+    "arm_r_joint1",
+    "arm_r_joint2",
+    "arm_r_joint3",
+    "arm_r_joint4",
+    "arm_r_joint5",
+    "arm_r_joint6",
+    "arm_r_joint7",
+    "gripper_r_joint1"
+  ],
+  "camera_slots": {
+    "observation.images.image": "cam_right_head",
+    "observation.images.image2": "cam_right_wrist",
+    "observation.images.image3": "cam_left_head"
+  },
+  "right_wrist_rotation_deg": 270,
+  "action_chunk_shape": [
+    30,
+    8
+  ],
+  "task": "pick the small black box and stack it on the big brown box"
+}

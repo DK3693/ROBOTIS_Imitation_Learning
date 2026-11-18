@@ -1,0 +1,44 @@
+[
+  {
+    "step": 1000,
+    "baseline_train_loss": 0.068,
+    "freeze_train_loss": 0.069,
+    "baseline_validation_loss": 0.0829,
+    "freeze_validation_loss": 0.0789
+  },
+  {
+    "step": 2000,
+    "baseline_train_loss": 0.032,
+    "freeze_train_loss": 0.037,
+    "baseline_validation_loss": 0.0615,
+    "freeze_validation_loss": 0.0618
+  },
+  {
+    "step": 3000,
+    "baseline_train_loss": 0.024,
+    "freeze_train_loss": 0.031,
+    "baseline_validation_loss": 0.0567,
+    "freeze_validation_loss": 0.0541
+  },
+  {
+    "step": 4000,
+    "baseline_train_loss": 0.018,
+    "freeze_train_loss": 0.027,
+    "baseline_validation_loss": 0.0569,
+    "freeze_validation_loss": 0.0519
+  },
+  {
+    "step": 5000,
+    "baseline_train_loss": 0.017,
+    "freeze_train_loss": 0.025,
+    "baseline_validation_loss": 0.0535,
+    "freeze_validation_loss": 0.0492
+  },
+  {
+    "step": 6000,
+    "baseline_train_loss": 0.018,
+    "freeze_train_loss": 0.025,
+    "baseline_validation_loss": 0.0533,
+    "freeze_validation_loss": 0.0491
+  }
+]

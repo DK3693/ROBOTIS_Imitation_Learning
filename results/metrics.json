@@ -1,0 +1,52 @@
+{
+  "as_of": "2026-11-18",
+  "dataset": {
+    "episodes": 50,
+    "frames": 22012,
+    "fps": 30,
+    "right_arm_extraction_matches_source": true
+  },
+  "offline_training": {
+    "seed": 42,
+    "steps": 6000,
+    "baseline_validation_loss": 0.0533,
+    "freeze_validation_loss": 0.0491,
+    "relative_validation_loss_reduction_percent": 7.879924953095685,
+    "baseline_duration_seconds": 4774,
+    "freeze_duration_seconds": 3373,
+    "relative_duration_reduction_percent": 29.346459991621277,
+    "parameter_check": {
+      "total_parameters": 879482456,
+      "trainable_parameters": 518850136,
+      "vision_parameters": 360632320,
+      "vision_trainable_parameters": 0,
+      "language_trainable_parameters": 207873024
+    }
+  },
+  "runtime_verification": {
+    "arm64_gpu": "NVIDIA Orin",
+    "recorded_prediction_shape": [
+      1,
+      30,
+      8
+    ],
+    "all_predicted_values_finite": true,
+    "all_planned_action_targets_right_arm": true,
+    "preview_measurement_seconds": 25,
+    "preview_samples": 2500,
+    "preview_arrival_hz": 100.00030039311514,
+    "preview_max_gap_ms": 17.55803299602121,
+    "preview_gaps_over_50ms": 0
+  },
+  "physical_demonstration": {
+    "policy_training_step": 8000,
+    "observed_task": "pick black box and place on brown box",
+    "evidence_type": "operator observation",
+    "scope": "task execution demonstration"
+  },
+  "integrity": {
+    "protected_files_sha256_identical": 250,
+    "official_source_files_hash_identical": 7,
+    "official_git_clean": true
+  }
+}
