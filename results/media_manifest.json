@@ -1,0 +1,30 @@
+[
+  {
+    "episode": 10,
+    "source_dataset": "Task_1_blackbox_stack_real_MCAP_lerobot_v21",
+    "source_camera": "cam_right_head",
+    "source_filename": "episode_000010.mp4",
+    "source_sha256": "e0c00af1e444b5acd3015be0f2b1ea719a5709d6e94ce827508c34f5e50f9c11",
+    "source_unchanged": true,
+    "classification": "recorded dataset demonstration",
+    "duration_s": 15.034,
+    "playback_speed": 1,
+    "mp4_path": "docs/assets/dataset-demo-ep10.mp4",
+    "mp4_sha256": "c0a2f48ca7ae3419b0d7edbdc4c6b4712fd001ecad310e12affb74bde961e395",
+    "preview_sha256": "0331525abc28bb6954f7eac22f74142c903465068d6a48992df1dde25b6dde0e"
+  },
+  {
+    "episode": 40,
+    "source_dataset": "Task_1_blackbox_stack_real_MCAP_lerobot_v21",
+    "source_camera": "cam_right_head",
+    "source_filename": "episode_000040.mp4",
+    "source_sha256": "ea8b0b65d1ec19264ecc58f3f5b3a2fb65229b6ff58643437006724580dedcd8",
+    "source_unchanged": true,
+    "classification": "recorded dataset demonstration",
+    "duration_s": 12.234,
+    "playback_speed": 1,
+    "mp4_path": "docs/assets/dataset-demo-ep40.mp4",
+    "mp4_sha256": "44fab994f76ca6f952c44ffae788d5f04ef9f2ebd48bf00f57fbe7248baefd27",
+    "preview_sha256": "fe01ffad0eaf68aaea43ff0f46ab7e8a18a514047ee7be25342432569104d402"
+  }
+]
